@@ -1,5 +1,3 @@
-__author__ = 'Jacob Amey'
-
 from random import randint
 
 secret = randint(1, 10)
