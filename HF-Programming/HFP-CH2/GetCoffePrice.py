@@ -4,5 +4,6 @@ import urllib.request
 
 page = urllib.request.urlopen("http://beans-r-us.biz/prices.html")
 text = page.read().decode("utf8")
+price = text[234:238]
 
-print(text)
+print(price)
