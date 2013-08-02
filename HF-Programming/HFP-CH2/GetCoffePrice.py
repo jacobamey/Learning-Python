@@ -1,5 +1,3 @@
-__author__ = 'Jacob Amey'
-
 import urllib.request
 
 price = 99.99
