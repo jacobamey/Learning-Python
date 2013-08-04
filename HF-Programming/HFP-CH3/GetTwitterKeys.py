@@ -1,9 +1,10 @@
-import tweepy
+from tweepy import OAuthHandler
+
 
 CONSUMER_KEY = 'place key here'
 CONSUMER_SECRET = 'place secret here'
 
-auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth = OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth_url = auth.get_authorization_url()
 print('Please authorize: ' + auth_url)
 verifier = input('PIN: ').strip()
