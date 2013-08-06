@@ -1,4 +1,4 @@
-### Learning-Python - {<img src="https://travis-ci.org/jacobamey/Learning-Python.png?branch=master" alt="Build Status" />}[https://travis-ci.org/jacobamey/Learning-Python]
+### Learning-Python - [![Build Status](https://travis-ci.org/jacobamey/Learning-Python.png?branch=master)](https://travis-ci.org/jacobamey/Learning-Python)
 
 
 ***
