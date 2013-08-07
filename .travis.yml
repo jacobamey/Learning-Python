@@ -1,15 +1,24 @@
+# Language Chossen.
 language: python
+
+# Language Version.
 python:
   - "3.2"
   - "3.3"
+
+# command to run tests.
+script: nosetests
+
+# Notification Type.
+notifications:
+email:
+
+# Who receives notification.
+  recipients:
+    jacobamey@gmail.com
   
-  notifications:
-  email:
-    recipients:
-      - jacobamey@gmail.com
-    on_success: change
-    on_failure: always
+# When Notification is received.  
+  on_success: change
+  on_failure: always
   
-  
-# command to run tests
-script: nosettests
+
