@@ -1,8 +1,6 @@
 import sqlite3
 
 
-
-
 def find_details(id2find): 
     db = sqlite3.connect("surfersDB.sdb") 
     db.row_factory = sqlite3.Row 
