@@ -4,7 +4,7 @@ result_f = open("results.txt")
 for line in result_f:
     (name, score) = line.split()
     scores.append(float(score))
-    name.append(name)
+    names.append(name)
 result_f.close()
 scores.sort()
 scores.reverse()
