@@ -7,8 +7,8 @@ def find_details(id2find):
     cursor = db.cursor() 
     cursor.execute("select * from surfers") 
     rows = cursor.fetchall() 
-    for row in rows: 
-        if row['id'] == id2find: 
+    for row in rows:
+        if row['id'] == id2find:
             s = {}
             s['id'] = str(row['id'])
             s['name'] = row['name']
@@ -16,9 +16,9 @@ def find_details(id2find):
             s['average'] = str(row['average'])
             s['board'] = row['board']
             s['age'] = str(row['age'])
-            cursor.close() 
-            return(s) 
-    cursor.close() 
+            cursor.close()
+            return(s)
+        cursor.close()
     return({})
 
 lookup_id = int(input("Enter the id of the surfer: ")) 
