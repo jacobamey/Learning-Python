@@ -1,12 +1,16 @@
 scores = []
+names = []
 result_f = open("results.txt")
 for line in result_f:
     (name, score) = line.split()
     scores.append(float(score))
+    name.append(name)
 result_f.close()
 scores.sort()
 scores.reverse()
-print("The top score where: ")
-print(scores[0])
-print(scores[1])
-print(scores[2])
+names.sort()
+names.reverse()
+print("The Highest scores were: ")
+print(names[0] + 'with' + str(scores[0]))
+print(names[1] + 'with' + str(scores[1]))
+print(names[2] + 'with' + str(scores[2]))
