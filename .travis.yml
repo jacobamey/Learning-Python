@@ -12,12 +12,8 @@ script: nosetests
 # Notification Type.
 notifications:
 email:
-
-# Who receives notification.
   recipients:
-    jacobamey@gmail.com
-  
-# When Notification is received.  
+    jacobamey@gmail.com  
   on_success: change
   on_failure: always
   
