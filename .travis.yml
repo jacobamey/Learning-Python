@@ -6,12 +6,5 @@ python:
   - "3.3"
 # command to run tests.
 script: nosetests
-# Notification Type.
-notifications:
-email:
-  recipients:
-    jacobamey@gmail.com  
-  on_success: change
-  on_failure: always
   
 
