@@ -2,5 +2,14 @@ language: python
 python:
   - "3.2"
   - "3.3"
+  
+  notifications:
+  email:
+    recipients:
+      - jacobamey@gmail.com
+    on_success: change
+    on_failure: always
+  
+  
 # command to run tests
 script: nosettests
