@@ -1,14 +1,11 @@
-# Language Chossen.
+# Language Chosen.
 language: python
-
 # Language Version.
 python:
   - "3.2"
   - "3.3"
-
 # command to run tests.
 script: nosetests
-
 # Notification Type.
 notifications:
 email:
