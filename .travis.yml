@@ -1,10 +1,19 @@
 # Language Chosen.
 language: python
-# Language Version.
+
+# Language Version(s).
 python:
   - "3.2"
   - "3.3"
+
 # command to run tests.
 script: nosetests
-  
+
+# notification Settings
+notifications:
+email:
+  recipients:
+    jacobamey@gmail.com
+  on_success: change
+  on_failure: always
 
