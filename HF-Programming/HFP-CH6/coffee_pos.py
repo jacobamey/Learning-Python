@@ -1,9 +1,9 @@
-from transactions import * 
+from transactions import *
 import promotion 
 import starbuzz
 
-items   = ["DONUT", "LATTE", "FILTER", "MUFFIN"] 
-prices  = [1.50, 2.20, 1.80, 1.20] 
+items = ["DONUT", "LATTE", "FILTER", "MUFFIN"]
+prices = [1.50, 2.20, 1.80, 1.20]
 running = True 
 
 while running: 
