@@ -28,10 +28,10 @@ num_bad.set(0)
 lab = Label(app, text='When you are ready, click on the buttons!', height=3)
 lab.pack()
 
-lab1 = Label(app, textvariable = num_good) 
+lab1 = Label(app, textvariable=num_good)
 lab1.pack(side='left')
 
-lab2 = Label(app, textvariable = num_bad) 
+lab2 = Label(app, textvariable=num_bad)
 lab2.pack(side='right')
 
 b1 = Button(app, text="Correct!", width=10, command=play_correct_sound)
