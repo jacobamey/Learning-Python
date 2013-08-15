@@ -28,7 +28,7 @@ app.title('Head-Ex deliveries')
 Label(app, text="Depot:").pack()
 depot = StringVar()
 depot.set(None)
-options = read_depots(depots.txt)
+options = read_depots("depots.txt")
 OptionMenu(app, depot, *options).pack()
 
 Label(app, text="Description:").pack()
