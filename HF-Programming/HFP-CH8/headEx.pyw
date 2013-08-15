@@ -17,9 +17,9 @@ app = Tk()
 app.title('Head-Ex deliveries')
 
 Label(app, text="Depot:").pack()
-Radiobutton(app, text="Cambridge, MA").pack()
-Radiobutton(app, text="Cambridge, UK").pack()
-Radiobutton(app, text="Cambridge, WA").pack()
+Radiobutton(app, text="Cambridge, MA", value="Cambridge, MA").pack()
+Radiobutton(app, text="Cambridge, UK", value="Cambridge, UK").pack()
+Radiobutton(app, text="Cambridge, WA", value="Cambridge, WA").pack()
 
 Label(app, text="Description:").pack()
 description = Entry(app)
