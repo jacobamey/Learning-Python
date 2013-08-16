@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter.messagebox
 
 
 def save_data():
@@ -14,7 +15,7 @@ def save_data():
         description.delete(0, END)
         address.delete(1.0, END)
     except Exception as ex:
-        app.title("Can't write to the file %s" % ex)
+        tkinter.messagebox.showerror("Error!", "Can't write to the file\n %s" % ex)
 
 
 def read_depots(file):
