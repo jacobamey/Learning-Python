@@ -15,6 +15,7 @@ for fname in dirList:
     if fname.endswith(".wav"):
         SoundPanel(app, mixer, fname).pack()
 
+
 def shutdown():
     mixer.stop()
     app.destroy()
