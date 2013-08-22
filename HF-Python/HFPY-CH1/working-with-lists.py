@@ -6,4 +6,4 @@ cast.append("Gilliam")
 #print(cast)
 
 # Prints the count of items in the list.
-print(cast)
+print(cast.pop())
