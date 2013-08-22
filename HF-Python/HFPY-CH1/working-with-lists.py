@@ -1,9 +1,5 @@
 cast = ["Cleese", 'pain', 'Jones', "Idle"]
 
-cast.append("Gilliam")
+cast.extend(["Gilliam", "Chapman"])
 
-# Prints the list as is.
-#print(cast)
-
-# Prints the count of items in the list.
-print(cast.pop())
+print(cast)
