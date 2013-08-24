@@ -10,5 +10,4 @@ def print_lol(a_list):
         else:
             print(each_item)
 
-
 print_lol(movies)
